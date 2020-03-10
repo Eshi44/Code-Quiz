@@ -12,6 +12,17 @@ a#nav-view-score-font.navbar-brand{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#header {
+#first-page {
     font-weight: bold;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #725b8f;
+    border-color: #725b8f;
+    color: white;
+}
+
+p {
+    padding-top: 3%;
 }
