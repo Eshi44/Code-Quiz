@@ -8,11 +8,11 @@ a#nav-view-score-font.navbar-brand{
     font-weight: bold;
 }
 
-.col-9 {
+.col-12 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#first-page {
+#first-page  {
     font-weight: bold;
     text-align: center;
 }
@@ -26,4 +26,10 @@ a#nav-view-score-font.navbar-brand{
 
 p {
     padding-top: 3%;
+}
+
+#header  {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
 }
