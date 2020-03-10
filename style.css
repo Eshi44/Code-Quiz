@@ -8,14 +8,19 @@ a#nav-view-score-font.navbar-brand{
     font-weight: bold;
 }
 
-.col-12 {
+.col-6 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-block {
+    width: auto;
 }
 
 #first-page  {
     font-weight: bold;
     text-align: center;
 }
+
 
 .btn-primary {
     background-color: #725b8f;

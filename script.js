@@ -16,11 +16,11 @@ timeEl.textContent = "Time: " + secondsLeft;
 secondPage.style.display = "none";
 
 starBtn.addEventListener("click", function () {
-    
-    firstPage.style.display = "none";
-    secondPage.style.display = "block";
+   
     secondsLeft = 75; 
     setTime();
+    firstPage.style.display = "none";
+    secondPage.style.display = "block";
 
   console.log("You've clicked me!");
     
