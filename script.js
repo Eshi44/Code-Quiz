@@ -2,6 +2,10 @@
 //console.log("Hello World");
 var timeEl = document.getElementById("time");
 
+//Create event listener so that when user clicks start quiz buttton, 
+//the first-page will hide and the second page will appear
+//Create seond-page in html
+
 var secondsLeft = 76;
 //Set time
 function setTime() {
