@@ -8,12 +8,20 @@ var timeEl = document.getElementById("time");
 //Create seond-page in html
 
 var starBtn = document.getElementById("start-Btn");
+var ques2Answer = document.getElementById("oneBtn3Correct");
 var firstPage = document.getElementById("first-page");
 var secondPage = document.getElementById("second-page");
+var thirdPage = document.getElementById("third-page");
+var fourthPage = document.getElementById("fourth-page");
+var fifthPage = document.getElementById("fifth-page");
+var sixthPage = document.getElementById("sixth-page");
+
 var secondsLeft = 0;
 timeEl.textContent = "Time: " + secondsLeft;
 
 secondPage.style.display = "none";
+thirdPage.style.display = "none";
+fourthPage.style.display = "none";
 
 starBtn.addEventListener("click", function () {
    
@@ -21,10 +29,17 @@ starBtn.addEventListener("click", function () {
     setTime();
     firstPage.style.display = "none";
     secondPage.style.display = "block";
-
-  console.log("You've clicked me!");
-    
+ // console.log("You've clicked me!");  
 });
+
+ques2Answer.addEventListener("click", function () {
+   
+    secondPage.style.display = "none";
+    thirdPage.style.display = "block";
+  //console.log("You've clicked me!");  
+});
+
+
 
 
 //Set time
