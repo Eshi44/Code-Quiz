@@ -21,6 +21,10 @@ a#nav-view-score-font.navbar-brand{
     text-align: center;
 }
 
+.results {
+    display: none;
+}
+
 
 .btn-primary {
     background-color: #725b8f;
