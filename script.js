@@ -138,7 +138,7 @@ function goToNextPageThree() {
 
 ques4Answer.addEventListener("click", function () {
   document.getElementById("correct-answer").style.display = "block";
-  setTimeout(goToNextPageTwo, 2000);
+  setTimeout(goToNextPageFour, 2000);
 });
 
 for (var i=0; i<incorrectFour.length; i++){
@@ -182,26 +182,29 @@ function goToNextPageFive() {
 
 
 
-var initials = document.getElementById("initials");
-
-function init() {
- 
-  var initials = JSON.parse(localStorage.getItem("initials"));
+// var initials = document.getElementById("initials");
+// initials = JSON.parse(localStorage.getItem("initials"));
 
 function saveInitialsAndScore() {
+  var initials = document.getElementById("initials").value;
   // Stringify and set "todos" key in localStorage to todos array
+  console.log("save initials");
+  console.log(initials);
+  console.log(score);
   localStorage.setItem("initials", JSON.stringify(initials));
+  localStorage.setItem("score", JSON.stringify(score));
 }
 
+var initialsForm = document.getElementById("save");
+console.log(initialsForm);
+
 // When form is submitted...
-initialsForm.addEventListener("submit", function(event) {
-  event.preventDefault();
-
-
+initialsForm.addEventListener("click", function() {
+  console.log("SUBMITTED");
   // Store updated todos in localStorage, re-render the list
   saveInitialsAndScore();
   
 });
-}
+
 
       
