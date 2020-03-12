@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="navbar-brand" id="nav-view-score-font" href="#">View Highscores</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item avatar">
+                  <a class="time" id="time">Time:
+                  </a>
+                </li>
+              </ul>
+        </nav>
+
+              <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-3">
+
+                       </div>
+                          <div class="col-6">
+                              <div id="first-page">
+                                <h1 id="header">Coding Quiz Challenge</h1>
+                                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by 10 seconds!</p>
+                                <button type="button" class="btn btn-primary" id="start-Btn">Start Quiz</button>
+                              </div>
+                            
+                            <div class="question1" id="second-page">
+                                <h1 id="header">Commony used data types DO NOT include:</h1>
+                                <button type="button" class="btn btn-primary btn-block" id="oneBtn1">1.strings</button>
+                                <button type="button" class="btn btn-primary btn-block" id="oneBtn2">2.booleans</button>
+                                <button type="button" class="btn btn-primary btn-block" id="oneBtn3Correct">3.alerts</button>
+                                <button type="button" class="btn btn-primary btn-block" id="oneBtn3">4.numbers</button>
+                        
+                         </div>
+                            
+
+                            <div class="question2" id="third-page">
+                                <h1 id="header">The condition in an if / else statement is enclosed within_________.</h1>
+                                <button type="button" class="btn btn-primary btn-block" id="twoBtn1">1.quotes</button>
+                                <button type="button" class="btn btn-primary btn-block" id="twoBtn2">2.curly brackets</button>
+                                <button type="button" class="btn btn-primary btn-block" id="twoBtn3Correct">3.parentheses</button>
+                                <button type="button" class="btn btn-primary btn-block" id="twoBtn4">4.square brackets</button>
+                            </div>
+
+                            <div class="question3" id="fourth-page">
+                                <h1 id="header">Arrays in Javascript can be used to store_________.</h1>
+                                <button type="button" class="btn btn-primary btn-block" id="threeBtn1">1.numbers and strings</button>
+                                <button type="button" class="btn btn-primary btn-block" id="threeBtn2">2.other arrays</button>
+                                <button type="button" class="btn btn-primary btn-block" id="threeBtn3">3.booleans</button>
+                                <button type="button" class="btn btn-primary btn-block" id="threeBtn4Correct">4.all of the above</button>
+                            </div>
+
+                            <div class="question4" id="fifth-page">
+                                <h1 id="header">String values must be enclosed within_________when being assigned to variables.</h1>
+                                <button type="button" class="btn btn-primary btn-block" id="fourBtn1">1.commas</button>
+                                <button type="button" class="btn btn-primary btn-block" id="fourBtn2">2.curly brackets</button>
+                                <button type="button" class="btn btn-primary btn-block" id="fourBtn3Correct">3.quotes</button>
+                                <button type="button" class="btn btn-primary btn-block" id="fourBtn4">4.parentheses</button>
+                            </div>
+
+                            <div class="question5" id="sixth-page">
+                                <h1 id="header">A very useful tool used during development and debugging for printing content to the debugger is: </h1>
+                                <button type="button" class="btn btn-primary btn-block" id="fiveBtn1">1.Javascript</button>
+                                <button type="button" class="btn btn-primary btn-block" id="fiveBtn2">2.terminal/bash</button>
+                                <button type="button" class="btn btn-primary btn-block" id="fiveBtn3">3.for loops</button>
+                                <button type="button" class="btn btn-primary btn-block" id="fiveBtn4Correct">4.console.log</button>
+                            </div>
+
+                            <div id= "seventh-page">
+                                <h1 id="header">All done!</h1>
+                                <p>Your score is <span id=highscore></span></p>
+                                <form class="form-inline">
+                                    <div class="form-group mb-2">
+                                      <label for="staticEmail2" class="sr-only">Enter Initials:</label>
+                                      <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Enter Initials:">
+                                    </div>
+                                    <div class="form-group mx-sm-3 mb-2">
+                                      
+                                      <input type="text" id="initials">
+                                    </div>
+                                    <button type="button" class="btn btn-primary mb-2" id= "save">Submit</button>
+                                  </form>
+
+                            </div>
+
+                            <div id= "eigth-page">
+
+                            </div>
+
+                                <div class = results id= correct-answer>Correct!</div>
+                                <div class = results id= incorrect-answer>Incorrect!</div>
+                          </div>
+                   </div>
+            </div>
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>
