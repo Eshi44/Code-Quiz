@@ -1,13 +1,12 @@
 # Code-Quiz
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+This coding assessment is a combination of multiple-choice questions,interactive challenges, and feedback responses. This app adapts to multiple screen sizes, presents the user with a timed multiple choice test, and saves the score to local storage.
 
-## User Story
+## Improvements
 
 ```
-AS A coding bootcamp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
+The user cannot se score unless they open up the applications tab in the chrome developer tools. Also, the code needs to be refactored since it is not 'dry'
+
 ```
 
 ## Acceptance Criteria
